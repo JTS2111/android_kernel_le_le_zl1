@@ -6,8 +6,8 @@ SMP=$3
 PREEMPT=$4
 CC=$5
 
-KBUILD_BUILD_USER=ekkilm
-KBUILD_BUILD_HOST=teamsuperluminal
+KBUILD_BUILD_USER=corvus
+KBUILD_BUILD_HOST=build_server
 
 vecho() { [ "${quiet}" = "silent_" ] || echo "$@" ; }
 
